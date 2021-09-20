@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#header1dash{
+    margin-left: 250px;
+    font-size: 28px;
+}
+
+th{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#anchordash{
+    color: whitesmoke;
+    font-weight: 20;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#anchordash:link{
+    color: whitesmoke;
+}
+
+#anchordash:visited{
+    color: whitesmoke;
+}
+
+#anchordash:hover{
+    color: goldenrod;
+}
+
+#anchordash:active{
+    color: goldenrod;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+    font-weight: 20;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+#boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+#boxes > div{
+    background-color: white;
+    padding: 18px;
+    text-align: center;
+    margin: 80px auto 40px auto;
+}
+
+#boxes > button:hover{
+    color: black;
+}
+
+#boxes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes2 > div{
+    background-color: white;
+    padding: 18px;
+    text-align: left;
+    margin: 80px auto 40px auto;
+}
+
+#boxes3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes3 > div{
+    background-color: gold;
+    padding: 18px;
+    text-align: left;
+    margin: 40px auto 40px auto;
+}
+
+#grid{
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px auto;
+    border-bottom: black;
+    font-weight: bold;
+}
+
+#boxes4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes4 > div{
+    text-align: left;
+    margin: 80px auto 40px auto;
+}
+
+#boxes5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes5 > div{
+    text-align: left;
+    margin: 80px auto 40px auto;
+}
+
+#boxes6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes6 > div{
+    text-align: left;
+    margin: 80px auto 40px auto;
+}
+
+#boxes7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:-3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes7 > div{
+    text-align: left;
+    margin: 80px auto 40px auto;
+}
+
+#boxes8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes8 > div{
+    text-align: center;
+    margin: 80px auto 40px auto;
+}
+
+#boxes9{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#boxes9 > div{
+    text-align: left;
+    color: white;
+    margin: 80px auto 40px auto;
+}
